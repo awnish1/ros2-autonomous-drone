@@ -1,0 +1,38 @@
+{
+  "source_map": "/home/awnish-kumar/drone_ws/maps/moving_map_20261015_230524.json",
+  "resolution_m": 0.25,
+  "boundary_padding_m": 0.35,
+  "known_walls": [
+    {
+      "name": "wall_1",
+      "x": 2.5,
+      "y": 2.5,
+      "width": 1.2,
+      "height": 0.45
+    },
+    {
+      "name": "wall_2",
+      "x": 4.0,
+      "y": 1.5,
+      "width": 0.6,
+      "height": 1.2
+    },
+    {
+      "name": "wall_3",
+      "x": 1.5,
+      "y": 4.0,
+      "width": 1.2,
+      "height": 0.6
+    }
+  ],
+  "unknown_regions": [
+    {
+      "name": "lidar_region_1",
+      "center_x": 1.5,
+      "center_y": 6.25,
+      "width": 1.7,
+      "height": 1.7,
+      "observed_cells": 9
+    }
+  ]
+}

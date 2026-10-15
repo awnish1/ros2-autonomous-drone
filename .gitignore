@@ -1,0 +1,62 @@
+
+# ROS2_DRONE_GITIGNORE
+
+# ROS 2 generated files
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.venv/
+venv/
+
+# Temporary files and backups
+*.tmp
+*.bak
+*.before_*
+*_backup.sdf
+*.swp
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
+
+# Gazebo cache
+.gz/
+.gazebo/
+
+# ROS 2 build output
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Backups
+*.before_*
+*_backup.sdf
+
+# Sensitive files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519

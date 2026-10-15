@@ -1,0 +1,47 @@
+{
+  "type": "offline_lidar_region_plan",
+  "snapshot_start": [
+    -0.4094062473828586,
+    6.177743955835733
+  ],
+  "recovery_point": [
+    -1.6094062473828594,
+    6.177743955835733
+  ],
+  "recovery_flight_validated": false,
+  "planning_clearance_m": 2.1,
+  "simulated_route_clearance_m": 2.4,
+  "unknown_space_policy": "Not yet validated",
+  "waypoints": [
+    {
+      "x": -1.5,
+      "y": 6.25,
+      "z": 2.0
+    },
+    {
+      "x": -1.5,
+      "y": 8.0,
+      "z": 2.0
+    },
+    {
+      "x": -0.25,
+      "y": 9.25,
+      "z": 2.0
+    },
+    {
+      "x": 3.25,
+      "y": 9.25,
+      "z": 2.0
+    },
+    {
+      "x": 4.5,
+      "y": 8.0,
+      "z": 2.0
+    },
+    {
+      "x": 5.0,
+      "y": 5.0,
+      "z": 2.0
+    }
+  ]
+}
