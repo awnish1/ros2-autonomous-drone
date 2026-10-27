@@ -7,15 +7,15 @@
 
 A **ROS 2-based autonomous quadcopter simulation** that combines **LiDAR sensing**, **A* path planning**, **waypoint navigation**, and **reactive obstacle handling** in Gazebo. The project demonstrates how a simulated drone can plan a route, track its position, respond to obstacles, and execute navigation logic with ROS 2 nodes.
 
-> **Project scope:** Simulation and robotics research. This repository is not a flight-certified controller or a validated real-world drone autopilot.
+> **Project scope:** This project runs in simulation and has not been validated as a real-world drone autopilot.
 
-**[Source code](https://github.com/awnish1/ros2-autonomous-drone)** · **[User manual](docs/ROS-2-Fundamentals-User-Manual.pdf)** · **[Installation video](https://www.youtube.com/watch?v=08o46x5SfJM)** · **[Issues](https://github.com/awnish1/ros2-autonomous-drone/issues)**
+**[Source Code](https://github.com/awnish1/ros2-autonomous-drone)** · **[Demo Videos](https://drive.google.com/drive/folders/199hkKudz8VzNXbIsvChtS_aSZoSDCysW)** · **[Documentation](https://drive.google.com/drive/folders/11Tm4WmUDncuhtjR5UibEdy9hMObxxtIF)** · **[Installation Guide](https://www.youtube.com/watch?v=08o46x5SfJM)**
 
-## Demonstration
+## Project Demonstration
 
-**Project demo video:** _Coming soon — replace this line with the public YouTube, Google Drive, or GitHub video link once uploaded._
+**[Watch the drone demonstration videos on Google Drive](https://drive.google.com/drive/folders/199hkKudz8VzNXbIsvChtS_aSZoSDCysW)**
 
-The demonstration is intended to show the simulated drone taking off, following planned waypoints, monitoring LiDAR measurements, responding to obstacles, and approaching its destination.
+The demonstrations show the simulated drone using waypoint navigation, A* path planning, and LiDAR-based obstacle awareness in Gazebo.
 
 ## Key Features
 
@@ -131,17 +131,15 @@ ros2-autonomous-drone/
 │       ├── models/                       # Quadcopter simulation model
 │       └── worlds/                       # Gazebo test environments
 ├── maps/                                 # LiDAR-derived obstacle/map data
-├── docs/                                 # Add your PDF user manual here
 └── README.md
 ```
-
-The `docs/` folder and this `README.md` are documentation additions; upload the manual before using its link above.
 
 ## Documentation and Resources
 
 | Resource | Link |
 | --- | --- |
-| ROS 2 Fundamentals — A Practical User Manual | [Project PDF](docs/ROS-2-Fundamentals-User-Manual.pdf) *(upload required)* |
+| Project documentation and ROS 2 user manual | [Google Drive — Documentation](https://drive.google.com/drive/folders/11Tm4WmUDncuhtjR5UibEdy9hMObxxtIF) |
+| Drone demonstration videos | [Google Drive — Demos](https://drive.google.com/drive/folders/199hkKudz8VzNXbIsvChtS_aSZoSDCysW) |
 | Project source code | [GitHub repository](https://github.com/awnish1/ros2-autonomous-drone) |
 | ROS 2 installation video | [YouTube guide](https://www.youtube.com/watch?v=08o46x5SfJM) |
 | ROS 2 Jazzy documentation | [docs.ros.org](https://docs.ros.org/en/jazzy/) |
@@ -155,19 +153,11 @@ The `docs/` folder and this `README.md` are documentation additions; upload the 
 - Detection and avoidance performance require further quantitative testing across different obstacle layouts and sensor conditions.
 - Some file paths and environment settings assume a workspace at `~/drone_ws`.
 
-## Future Improvements
+## Author
 
-- Neural-network-assisted perception or obstacle classification
-- Better map updates and online replanning
-- Three-dimensional path planning and trajectory smoothing
-- More simulation scenarios and quantitative navigation benchmarks
-- Evaluation on real drone hardware with an independent flight-control and safety stack
-
-## Contributors
-
-Aditi Yadav · Ashay Gupta · Awnish Kumar  
+**Awnish Kumar**  
 Department of Computer Science and Engineering, IIIT Vadodara
 
 ---
 
-**Educational and research project — ROS 2 autonomous drone navigation in Gazebo.**
+**ROS 2 autonomous drone navigation in Gazebo.**
