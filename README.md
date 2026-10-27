@@ -153,4 +153,5 @@ ros2-autonomous-drone/
 - Detection and avoidance performance require further quantitative testing across different obstacle layouts and sensor conditions.
 - Some file paths and environment settings assume a workspace at `~/drone_ws`.
 
+
 **ROS 2 autonomous drone navigation in Gazebo.**
